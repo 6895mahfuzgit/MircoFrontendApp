@@ -1,0 +1,6 @@
+*/node_modules/*
+.idea/$CACHE_FILE$
+.idea/$PRODUCT_WORKSPACE_FILE$
+*/package-lock.json
+*/dist/*
+
