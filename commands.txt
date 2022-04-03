@@ -1,0 +1,5 @@
+1. insalttled  pnpx by this command [npm i -g pnpm]
+2.creating app [pnpx create-mf-app]
+3. npm install -g yarn
+3. npm install -g webpack
+4.create app using this command [pnpx create-mf-app]
