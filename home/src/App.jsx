@@ -1,5 +1,6 @@
-import React from "react";
+import React,{Suspense} from "react";
 import ReactDOM from "react-dom";
+
 import Footer from "./Footer";
 import Header from "./Header";
 
