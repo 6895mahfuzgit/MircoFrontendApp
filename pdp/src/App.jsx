@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 
 import Footer from "home/Footer";
 import Header from "home/Header";
+import PDPContent from "./PDPContent";
 
 import "./index.scss";
 import SafeComponent from "./SafeComponent";
@@ -13,7 +14,9 @@ const App = () => {
       <SafeComponent>
         <Header />
       </SafeComponent>
-      <div className="my-10">PDP Page Content</div>
+      <div className="my-10">
+        <PDPContent />
+      </div>
       <Footer />
     </div>
   );
