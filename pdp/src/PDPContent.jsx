@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
+
 import { currency, getProductById } from "home/products";
 
 export default function PDPContent() {
-  const id = 1;
+  const {id} = useParams();
   const [product, setProduct] = useState(null);
 
   useEffect(() => {
