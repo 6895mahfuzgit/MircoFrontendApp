@@ -18,7 +18,8 @@ const App = () => {
         </SafeComponent>
         <div className="my-10">
           <Routes>
-            <Route path="/product/:id" component={PDPContent} />
+            
+            <Route path="/product/:id" element={<PDPContent/>} />
           </Routes>
         </div>
         <Footer />
