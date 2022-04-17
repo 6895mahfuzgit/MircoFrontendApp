@@ -6,6 +6,7 @@ import Header from "home/Header";
 import PDPContent from "./PDPContent";
 import { BrowserRouter, Route, Routes, Switch } from "react-router-dom";
 
+import "remixicon/fonts/remixicon.css";
 import "./index.scss";
 import SafeComponent from "./SafeComponent";
 
