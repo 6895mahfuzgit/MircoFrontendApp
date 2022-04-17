@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useLoggedIn, login } from "./cart";
 
+
 export default function Login() {
     const loggedIn = useLoggedIn();
     const [showLogin, setShowLogin] = useState(false);
@@ -23,7 +24,6 @@ export default function Login() {
                     style={{
                         width: 300,
                         top: "2rem",
-                        left: -250,
                     }}
                 >
                     <input
