@@ -21,6 +21,20 @@ export const getCart = () =>
     });
 
 
+    export const addToCart = (id) =>
+    fetch(`${API_SERVER}/cart`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${jwt.value}`,
+      },
+      body: JSON.stringify({ id }),
+    })
+      .then((res) => res.json())
+      .then(() => {
+        getCart();
+      });
+
     export const clearCart = () =>
     fetch(`${API_SERVER}/cart`, {
      method:"DELETE", 
