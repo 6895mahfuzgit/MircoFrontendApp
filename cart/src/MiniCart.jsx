@@ -32,6 +32,7 @@ export default function MiniCart(){
               style={{
                 width: 300,
                 top: "2rem",
+                left: -250,
               }}
             >
               <div
