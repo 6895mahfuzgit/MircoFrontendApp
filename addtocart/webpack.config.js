@@ -46,7 +46,10 @@ module.exports = {
       remotes: {
         cart:"cart@http://localhost:3002/remoteEntry.js",
       },
-      exposes: {},
+      exposes: {
+        "./AddToCart": "./src/AddToCart.jsx",
+        "./placeAddToCart": "./src/placeAddToCart.js"
+      },
       shared: {
         ...deps,
         "solid-js": {
